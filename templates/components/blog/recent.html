@@ -1,3 +1,12 @@
-<div class="content-item">
-    Hello world for blog template
-</div>
+<div class="content-item recentBlog">
+    {{#with blog}}
+        <h2><a href="{{url}}">The Latest from {{name}}</a></h2>
+         <ul>
+             {{#each recent_posts}}
+                <li>
+                    {{> components/blog/recent-post post=this}}
+                </li>
+             {{/each}}
+         </ul>
+    {{/with}}
+</div> 

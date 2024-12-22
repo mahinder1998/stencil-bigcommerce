@@ -3,7 +3,9 @@
     "brand": {},
     "category": {},
     "page": {},
-    "product": {}
+    "product": {
+      "custom-product.html": "/canvas-laundry-cart/"
+    }
   },
   "normalStoreUrl": "https://store-gusmblzlok.mybigcommerce.com/",
   "port": 3000,

@@ -1,0 +1,25 @@
+.productInfoBlocks{
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: spacing("base");
+    margin-bottom: spacing("double");
+    @include breakpoint("medium"){
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @include breakpoint("large"){
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+.productInfoBlock{ 
+    background-color: $productInfoBlock-backgroundColor;
+    padding: spacing("base");
+    position: relative;
+    border-radius: 4px;
+    border-color: $productInfoBlock-BorderColor;
+    font-size: fontSize("smaller") ;
+    h2{
+        font-size: $productInfoBlock-heading-fontSize;
+        margin: 0;
+    }
+}

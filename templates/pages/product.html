@@ -13,6 +13,34 @@ product:
 
 {{#partial "page"}}
 
+<!-- 1st method -->
+<!-- <div class="product-wrapper">
+    <div class="product-title">
+        {{product.title}}
+    </div>
+    <div class="product-sku">
+        {{product.sku}}
+    </div>
+</div> -->
+
+
+<!-- 2nd method -->
+<!-- {{#with product}}
+<div class="product-wrapper">
+    <div class="product-title">
+        {{title}}
+    </div>
+    <div class="product-sku">
+        {{sku}}
+    </div>
+</div>
+{{/with}} -->
+
+
+<!-- 3rd method -->
+ {{> components/my-component product}}
+    
+
     {{> components/common/breadcrumbs breadcrumbs=breadcrumbs}}
 
     {{#each product.shipping_messages}}
