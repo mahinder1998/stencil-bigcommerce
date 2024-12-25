@@ -3842,5 +3842,52 @@
         ]
       }
     ]
+  },
+  { 
+    "name": "productInfoBlock",
+    "settings":[
+      {
+        "type": "heading",
+        "content": "Product Info Block"
+      },
+      {
+        "type":"checkbox",
+        "id": "showproductInfo",
+        "label": "Show product info ..."
+      },
+      {
+        "type": "color",
+        "id": "productInfoBackground",
+        "label": "productInfo Background ..."
+      },
+      {
+        "type": "color",
+        "id": "productInfoColor",
+        "label": "productInfo Color ..."
+      },
+      {
+        "type": "select",
+        "label": "productInfoColor Size",
+        "id": "productInfoColorSize",
+        "options": [
+          {
+            "value": 20,
+            "label": "20px"
+          },
+          {
+            "value": 24,
+            "label": "24px"
+          },
+          {
+            "value": 28,
+            "label": "28px"
+          },
+          {
+            "value": 32,
+            "label": "32px"
+          }
+        ]
+      }
+    ]
   }
 ]

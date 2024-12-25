@@ -18,13 +18,15 @@
                  <li class="navPages-item navPages-item-page">
                      <a class="navPages-action{{#if name '==' ../page.title}} activePage{{/if}}"
                         href="{{url}}"
-                        aria-label="{{name}}"
-                     >
+                        aria-label="{{name}}">
                          {{name}}
                      </a>
                  </li>
              {{/each}}
         {{/unless}}
+         <!-- csutom menu start-->
+         {{> components/common/menuheader }}  
+         <!-- custom menu end-->
     </ul>
     <ul class="navPages-list navPages-list--user">
         {{#if currency_selector.currencies.length '>' 1}}

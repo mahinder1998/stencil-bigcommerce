@@ -7,6 +7,7 @@
   "license": "MIT",
   "dependencies": {
     "@bigcommerce/stencil-utils": "6.15.1",
+    "@fancyapps/fancybox": "^3.5.7",
     "core-js": "^3.9.0",
     "creditcards": "^4.2.0",
     "easyzoom": "^2.5.3",
@@ -43,6 +44,7 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.22.0",
     "expose-loader": "^4.0.0",
+    "fancybox": "^3.0.1",
     "grunt": "^1.5.3",
     "grunt-cli": "^1.4.3",
     "grunt-eslint": "^20.0.0",

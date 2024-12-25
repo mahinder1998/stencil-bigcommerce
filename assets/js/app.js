@@ -40,7 +40,7 @@ const pageClasses = {
     giftcertificates: () => import('./theme/gift-certificate'),
     giftcertificates_balance: () => import('./theme/gift-certificate'),
     giftcertificates_redeem: () => import('./theme/gift-certificate'),
-    default: noop,
+    default: () => import('./theme/home'),
     page: noop,
     product: () => import('./theme/product'),
     amp_product_options: () => import('./theme/product'),
@@ -52,7 +52,10 @@ const pageClasses = {
     wishlists: () => import('./theme/wishlist'),
 };
 
-const customClasses = {};
+const customClasses = {
+    "pages/custom/product/awesome-product":  () => import('./theme/custom/product/awesome-product'),
+    "pages\\custom\\product\\awesome-product":  () => import('./theme/custom/product/awesome-product')
+};
 
 /**
  * This function gets added to the global window and then called

@@ -399,7 +399,11 @@
     "masterpass-button-color": "black",
     "paymentbuttons-provider-sorting": [
 
-    ]
+    ],
+    "showproductInfo": true,
+    "productInfoBackground": "#f5f5f5",
+    "productInfoColor": "#000000",
+    "productInfoColorSize": 20
   },
   "read_only_files": [
     "/assets/scss/components/citadel",
@@ -517,10 +521,6 @@
         "product_size": "500x659",
         "productview_thumb_size": "50x50",
         "productthumb_size": "100x100",
-        "productInfoBlock-backgroundColor": "#e5e5e5",
-        "productInfoBlock-BorderColor": "#757575",
-        "productInfoBlock-IconColor": "#757575",
-        "productInfoBlock-heading-fontSize": 20,
         "thumb_size": "100x100",
         "zoom_size": "1280x1280",
         "blog_size": "190x250",
@@ -1222,7 +1222,15 @@
         "color_text_product_sold_out_badges": "#ffffff",
         "color_hover_product_sold_out_badges": "#000000",
         "focusTooltip-textColor": "#ffffff",
-        "focusTooltip-backgroundColor": "#313440"
+        "focusTooltip-backgroundColor": "#313440",
+        "menu-lavel-one": "custom menu",
+        "menu-lavel-one-url": "#",
+        "child-menu-one": "About 1",
+        "child-menu-one-url": "#",
+        "child-menu-two": "About 2",
+        "child-menu-two-url": "#",
+        "child-menu-three": "About 2",
+        "child-menu-three-url": "#"
       }
     }
   ]
