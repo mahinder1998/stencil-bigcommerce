@@ -9,6 +9,15 @@ const PLUGIN_KEY = 'menu';
  */
 class Menu {
     constructor($menu) {
+        
+        // header menu active
+        let customMenu = document.querySelector(".custom-menu-toggle");
+        customMenu.addEventListener("click", (event) => {
+            console.log("hello world!!")
+            event.currentTarget.closest(".navPages-item")?.classList.toggle("active-menu");
+        });
+
+
         this.$menu = $menu;
         this.$body = $('body');
         this.hasMaxMenuDisplayDepth = this.$body.find('.navPages-list').hasClass('navPages-list-depth-max');

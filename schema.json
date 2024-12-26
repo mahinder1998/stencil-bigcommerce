@@ -3889,5 +3889,39 @@
         ]
       }
     ]
+  },
+  { 
+    "name": "custom menu",
+    "settings":[
+      {
+        "type": "heading",
+        "content": "menu"
+      },
+      {
+        "type": "text",
+        "label": "menu text",
+        "id": "menuText"
+      },
+      {
+        "type": "text",
+        "label": "submenu text",
+        "id": "submenuText"
+      },
+      {
+        "type": "text",
+        "label": "submenu text url",
+        "id": "submenuTextUrl"
+      },
+      {
+        "type": "text",
+        "label": "submenu text two",
+        "id": "submenuTextTwo"
+      },
+      {
+        "type": "text",
+        "label": "submenu text url two",
+        "id": "submenuTextUrlTwo"
+      }
+    ]
   }
 ]

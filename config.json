@@ -403,7 +403,12 @@
     "showproductInfo": true,
     "productInfoBackground": "#f5f5f5",
     "productInfoColor": "#000000",
-    "productInfoColorSize": 20
+    "productInfoColorSize": 20,
+    "menuText": "Collections All",
+    "submenuText": "Men",
+    "submenuTextUrl": "https://cornerstone-light-demo.mybigcommerce.com/",
+    "submenuTextTwo": "Women",
+    "submenuTextUrlTwo": "https://cornerstone-light-demo.mybigcommerce.com/"
   },
   "read_only_files": [
     "/assets/scss/components/citadel",
@@ -1222,15 +1227,7 @@
         "color_text_product_sold_out_badges": "#ffffff",
         "color_hover_product_sold_out_badges": "#000000",
         "focusTooltip-textColor": "#ffffff",
-        "focusTooltip-backgroundColor": "#313440",
-        "menu-lavel-one": "custom menu",
-        "menu-lavel-one-url": "#",
-        "child-menu-one": "About 1",
-        "child-menu-one-url": "#",
-        "child-menu-two": "About 2",
-        "child-menu-two-url": "#",
-        "child-menu-three": "About 2",
-        "child-menu-three-url": "#"
+        "focusTooltip-backgroundColor": "#313440"
       }
     }
   ]

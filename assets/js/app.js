@@ -54,7 +54,7 @@ const pageClasses = {
 
 const customClasses = {
     "pages/custom/product/awesome-product":  () => import('./theme/custom/product/awesome-product'),
-    "pages\\custom\\product\\awesome-product":  () => import('./theme/custom/product/awesome-product')
+    "pages\\custom\\product\\awesome-p roduct":  () => import('./theme/custom/product/awesome-product')
 };
 
 /**
