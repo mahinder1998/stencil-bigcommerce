@@ -1,21 +1,32 @@
 .navPages-item.custom {
     position: relative;
 }
+
 .custom-submenu {
-    background: #ccc;
+    background: #e5e5e5;
     position: absolute;
     left: 0;
     width: 100%;
     display: none;
 }
+
 .navPages-item.active-menu .custom-submenu {
     display: block;
 }
+
 .navPages-item.custom svg {
     width: 10px;
     height: 10px;
     margin-left: 8px;
 }
+
 .navPages-item.custom i {
     display: none;
+}
+
+.active-menu a.navPages-action.custom-menu-toggle {
+    background: #e5e5e5;
+}
+[href]:focus {
+    outline: none !important;
 }

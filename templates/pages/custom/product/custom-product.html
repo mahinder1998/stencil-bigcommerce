@@ -1,19 +1,18 @@
 {{#partial 'page'}}
-<div class="product-grid">
-    <div class="product-content">
+
+<div class="productInfoBlocks">
+    <div class="productInfoBlock">
         <h1>{{product.title}}</h1>
         <h2> SKU: {{product.sku}}</h2>
         <p>  {{{product.description}}}</p>
-        <button class="cta">Click me!</button>  
     </div>
 </div>
 
-
 {{inject "myProductName" product}}
-<script>
-var jsContext = JSON.parse({{jsContext}});
-console.log(jsContext.myProductName);
-// results in: "BigCommerce Coffee Mug"
-</script>
+    <script>
+    var jsContext = JSON.parse({{jsContext}});
+    console.log(jsContext.myProductName);
+    // results in: "BigCommerce Coffee Mug"
+    </script>
 {{/partial}}
 {{>layout/base}}

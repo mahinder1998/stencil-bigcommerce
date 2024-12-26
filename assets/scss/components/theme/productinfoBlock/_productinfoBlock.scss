@@ -20,15 +20,12 @@
     font-size: fontSize("smaller") ;
     background-color: $productInfoBackgroundColor;
     color: $productInfoTextColor;
-    h2{
+    h1, h2{
         font-size:$productInfoFontSize;
         color: $productInfoTextColor;
         margin: 0;
     }
 }
-
-
-// 
 
 a[data-fancybox="gallery"] {
     position: absolute;
